@@ -1,0 +1,14 @@
+language: objective-c
+ 
+branches:
+ only:
+ - master
+ 
+xcode_project: MZOpenWeatherApp-Swift.xcodeproj
+xcode_scheme: MZOpenWeatherApp-SwiftTests
+osx_image: xcode7.2
+xcode_sdk: iphonesimulator9.2
+ 
+script:
+- xcodebuild clean build -project MZOpenWeatherApp-Swift/MZOpenWeatherApp-Swift.xcodeproj -scheme MZOpenWeatherApp-Swift CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+#- xctool test -project MZOpenWeatherApp-Swift/MZOpenWeatherApp-Swift.xcodeproj -scheme MZOpenWeatherApp-Swift -sdk iphonesimulator CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
