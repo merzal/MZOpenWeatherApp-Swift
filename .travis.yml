@@ -1,8 +1,8 @@
 language: objective-c
  
-branches:
- only:
- - master
+#branches:
+# only:
+# - master
  
 xcode_project: MZOpenWeatherApp-Swift.xcodeproj
 xcode_scheme: MZOpenWeatherApp-SwiftTests
