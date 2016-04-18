@@ -40,7 +40,7 @@
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13EB4BCC1C1F59B10070957D"
@@ -48,6 +48,11 @@
                BlueprintName = "MZOpenWeatherApp-SwiftUITests"
                ReferencedContainer = "container:MZOpenWeatherApp-Swift.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "MZOpenWeatherApp_SwiftUITests.MZOpenWeatherApp_SwiftUITests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
