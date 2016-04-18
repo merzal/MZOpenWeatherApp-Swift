@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13EB4BB21C1F59B10070957D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB4BB11C1F59B10070957D /* AppDelegate.swift */; };
+		13EB4BB41C1F59B10070957D /* MZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB4BB31C1F59B10070957D /* MZMainViewController.swift */; };
+		13EB4BB91C1F59B10070957D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EB4BB81C1F59B10070957D /* Assets.xcassets */; };
+		13EB4BBC1C1F59B10070957D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13EB4BBA1C1F59B10070957D /* LaunchScreen.storyboard */; };
+		13EB4BC71C1F59B10070957D /* MZOpenWeatherApp_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB4BC61C1F59B10070957D /* MZOpenWeatherApp_SwiftTests.swift */; };
+		13EB4BD21C1F59B10070957D /* MZOpenWeatherApp_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB4BD11C1F59B10070957D /* MZOpenWeatherApp_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13EB4BC31C1F59B10070957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EB4BA61C1F59B10070957D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EB4BAD1C1F59B10070957D;
+			remoteInfo = "MZOpenWeatherApp-Swift";
+		};
+		13EB4BCE1C1F59B10070957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13EB4BA61C1F59B10070957D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EB4BAD1C1F59B10070957D;
+			remoteInfo = "MZOpenWeatherApp-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EB4BAE1C1F59B10070957D /* MZOpenWeatherApp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MZOpenWeatherApp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EB4BB11C1F59B10070957D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13EB4BB31C1F59B10070957D /* MZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMainViewController.swift; sourceTree = "<group>"; };
+		13EB4BB81C1F59B10070957D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13EB4BBB1C1F59B10070957D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13EB4BBD1C1F59B10070957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EB4BC21C1F59B10070957D /* MZOpenWeatherApp-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MZOpenWeatherApp-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EB4BC61C1F59B10070957D /* MZOpenWeatherApp_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZOpenWeatherApp_SwiftTests.swift; sourceTree = "<group>"; };
+		13EB4BC81C1F59B10070957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EB4BCD1C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MZOpenWeatherApp-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EB4BD11C1F59B10070957D /* MZOpenWeatherApp_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZOpenWeatherApp_SwiftUITests.swift; sourceTree = "<group>"; };
+		13EB4BD31C1F59B10070957D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13EB4BAB1C1F59B10070957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BBF1C1F59B10070957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BCA1C1F59B10070957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EB4BA51C1F59B10070957D = {
+			isa = PBXGroup;
+			children = (
+				13EB4BB01C1F59B10070957D /* MZOpenWeatherApp-Swift */,
+				13EB4BC51C1F59B10070957D /* MZOpenWeatherApp-SwiftTests */,
+				13EB4BD01C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests */,
+				13EB4BAF1C1F59B10070957D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13EB4BAF1C1F59B10070957D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13EB4BAE1C1F59B10070957D /* MZOpenWeatherApp-Swift.app */,
+				13EB4BC21C1F59B10070957D /* MZOpenWeatherApp-SwiftTests.xctest */,
+				13EB4BCD1C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13EB4BB01C1F59B10070957D /* MZOpenWeatherApp-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				13EB4BB11C1F59B10070957D /* AppDelegate.swift */,
+				13EB4BB31C1F59B10070957D /* MZMainViewController.swift */,
+				13EB4BB81C1F59B10070957D /* Assets.xcassets */,
+				13EB4BBA1C1F59B10070957D /* LaunchScreen.storyboard */,
+				13EB4BBD1C1F59B10070957D /* Info.plist */,
+			);
+			path = "MZOpenWeatherApp-Swift";
+			sourceTree = "<group>";
+		};
+		13EB4BC51C1F59B10070957D /* MZOpenWeatherApp-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				13EB4BC61C1F59B10070957D /* MZOpenWeatherApp_SwiftTests.swift */,
+				13EB4BC81C1F59B10070957D /* Info.plist */,
+			);
+			path = "MZOpenWeatherApp-SwiftTests";
+			sourceTree = "<group>";
+		};
+		13EB4BD01C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13EB4BD11C1F59B10070957D /* MZOpenWeatherApp_SwiftUITests.swift */,
+				13EB4BD31C1F59B10070957D /* Info.plist */,
+			);
+			path = "MZOpenWeatherApp-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13EB4BAD1C1F59B10070957D /* MZOpenWeatherApp-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EB4BD61C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-Swift" */;
+			buildPhases = (
+				13EB4BAA1C1F59B10070957D /* Sources */,
+				13EB4BAB1C1F59B10070957D /* Frameworks */,
+				13EB4BAC1C1F59B10070957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MZOpenWeatherApp-Swift";
+			productName = "MZOpenWeatherApp-Swift";
+			productReference = 13EB4BAE1C1F59B10070957D /* MZOpenWeatherApp-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13EB4BC11C1F59B10070957D /* MZOpenWeatherApp-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EB4BD91C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftTests" */;
+			buildPhases = (
+				13EB4BBE1C1F59B10070957D /* Sources */,
+				13EB4BBF1C1F59B10070957D /* Frameworks */,
+				13EB4BC01C1F59B10070957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EB4BC41C1F59B10070957D /* PBXTargetDependency */,
+			);
+			name = "MZOpenWeatherApp-SwiftTests";
+			productName = "MZOpenWeatherApp-SwiftTests";
+			productReference = 13EB4BC21C1F59B10070957D /* MZOpenWeatherApp-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13EB4BCC1C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EB4BDC1C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftUITests" */;
+			buildPhases = (
+				13EB4BC91C1F59B10070957D /* Sources */,
+				13EB4BCA1C1F59B10070957D /* Frameworks */,
+				13EB4BCB1C1F59B10070957D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EB4BCF1C1F59B10070957D /* PBXTargetDependency */,
+			);
+			name = "MZOpenWeatherApp-SwiftUITests";
+			productName = "MZOpenWeatherApp-SwiftUITests";
+			productReference = 13EB4BCD1C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13EB4BA61C1F59B10070957D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zalan Mergl";
+				TargetAttributes = {
+					13EB4BAD1C1F59B10070957D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					13EB4BC11C1F59B10070957D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 13EB4BAD1C1F59B10070957D;
+					};
+					13EB4BCC1C1F59B10070957D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 13EB4BAD1C1F59B10070957D;
+					};
+				};
+			};
+			buildConfigurationList = 13EB4BA91C1F59B10070957D /* Build configuration list for PBXProject "MZOpenWeatherApp-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13EB4BA51C1F59B10070957D;
+			productRefGroup = 13EB4BAF1C1F59B10070957D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13EB4BAD1C1F59B10070957D /* MZOpenWeatherApp-Swift */,
+				13EB4BC11C1F59B10070957D /* MZOpenWeatherApp-SwiftTests */,
+				13EB4BCC1C1F59B10070957D /* MZOpenWeatherApp-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13EB4BAC1C1F59B10070957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB4BBC1C1F59B10070957D /* LaunchScreen.storyboard in Resources */,
+				13EB4BB91C1F59B10070957D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BC01C1F59B10070957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BCB1C1F59B10070957D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13EB4BAA1C1F59B10070957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB4BB41C1F59B10070957D /* MZMainViewController.swift in Sources */,
+				13EB4BB21C1F59B10070957D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BBE1C1F59B10070957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB4BC71C1F59B10070957D /* MZOpenWeatherApp_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13EB4BC91C1F59B10070957D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EB4BD21C1F59B10070957D /* MZOpenWeatherApp_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13EB4BC41C1F59B10070957D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EB4BAD1C1F59B10070957D /* MZOpenWeatherApp-Swift */;
+			targetProxy = 13EB4BC31C1F59B10070957D /* PBXContainerItemProxy */;
+		};
+		13EB4BCF1C1F59B10070957D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13EB4BAD1C1F59B10070957D /* MZOpenWeatherApp-Swift */;
+			targetProxy = 13EB4BCE1C1F59B10070957D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13EB4BBA1C1F59B10070957D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13EB4BBB1C1F59B10070957D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13EB4BD41C1F59B10070957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13EB4BD51C1F59B10070957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13EB4BD71C1F59B10070957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MZOpenWeatherApp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13EB4BD81C1F59B10070957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MZOpenWeatherApp-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13EB4BDA1C1F59B10070957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MZOpenWeatherApp-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZOpenWeatherApp-Swift.app/MZOpenWeatherApp-Swift";
+			};
+			name = Debug;
+		};
+		13EB4BDB1C1F59B10070957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MZOpenWeatherApp-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZOpenWeatherApp-Swift.app/MZOpenWeatherApp-Swift";
+			};
+			name = Release;
+		};
+		13EB4BDD1C1F59B10070957D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MZOpenWeatherApp-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MZOpenWeatherApp-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		13EB4BDE1C1F59B10070957D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MZOpenWeatherApp-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MZOpenWeatherApp-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13EB4BA91C1F59B10070957D /* Build configuration list for PBXProject "MZOpenWeatherApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EB4BD41C1F59B10070957D /* Debug */,
+				13EB4BD51C1F59B10070957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EB4BD61C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EB4BD71C1F59B10070957D /* Debug */,
+				13EB4BD81C1F59B10070957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13EB4BD91C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EB4BDA1C1F59B10070957D /* Debug */,
+				13EB4BDB1C1F59B10070957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13EB4BDC1C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13EB4BDD1C1F59B10070957D /* Debug */,
+				13EB4BDE1C1F59B10070957D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13EB4BA61C1F59B10070957D /* Project object */;
+}
