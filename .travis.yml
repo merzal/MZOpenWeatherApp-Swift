@@ -10,8 +10,8 @@ osx_image: xcode7.3
 xcode_sdk: iphonesimulator9.3
 
 script:
-- clean_and_build.sh
-- test.sh
+- ./clean_and_build.sh
+- ./test.sh
     
 after_success:
   - bash <(curl -s https://codecov.io/bash)
