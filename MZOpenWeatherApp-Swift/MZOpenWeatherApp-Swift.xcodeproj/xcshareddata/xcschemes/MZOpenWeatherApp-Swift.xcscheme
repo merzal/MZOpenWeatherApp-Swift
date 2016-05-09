@@ -48,6 +48,11 @@
                BlueprintName = "MZOpenWeatherApp-SwiftUITests"
                ReferencedContainer = "container:MZOpenWeatherApp-Swift.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "MZOpenWeatherApp_SwiftUITests.MZOpenWeatherApp_SwiftUITests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

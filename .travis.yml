@@ -1,0 +1,17 @@
+language: objective-c
+ 
+#branches:
+# only:
+# - master
+ 
+xcode_project: MZOpenWeatherApp-Swift.xcodeproj
+xcode_scheme: MZOpenWeatherApp-Swift
+osx_image: xcode7.3
+xcode_sdk: iphonesimulator9.3
+
+script:
+- ./clean_and_build.sh
+- ./test.sh
+    
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -J 'MZOpenWeatherApp-Swift'

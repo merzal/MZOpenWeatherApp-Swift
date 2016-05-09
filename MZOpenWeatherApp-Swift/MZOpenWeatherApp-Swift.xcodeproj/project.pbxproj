@@ -387,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MZOpenWeatherApp-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zal.MZOpenWeatherApp-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -398,7 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MZOpenWeatherApp-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zal.MZOpenWeatherApp-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -434,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = "MZOpenWeatherApp-Swift";
 				USES_XCTRUNNER = YES;
 			};
@@ -446,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cas.MZOpenWeatherApp-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = "MZOpenWeatherApp-Swift";
 				USES_XCTRUNNER = YES;
 			};
@@ -470,6 +472,7 @@
 				13EB4BD81C1F59B10070957D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13EB4BD91C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +481,7 @@
 				13EB4BDB1C1F59B10070957D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13EB4BDC1C1F59B10070957D /* Build configuration list for PBXNativeTarget "MZOpenWeatherApp-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +490,7 @@
 				13EB4BDE1C1F59B10070957D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
